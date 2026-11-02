@@ -1,9 +1,9 @@
 const typingText = [
-  "IT Internship Candidate",
-  "Full-Stack Web Developer",
-  "Python Developer",
-  "PHP & MySQL Developer",
-  "Software Development Learner"
+  "Computer Science Student",
+  "Data Analytics Enthusiast",
+  "Business Intelligence Enthusiast",
+  "Full-Stack Developer",
+  "Power BI Developer"
 ];
 
 let textIndex = 0;
@@ -23,7 +23,7 @@ function typeEffect() {
 
   if (!isDeleting && charIndex === currentText.length + 1) {
     isDeleting = true;
-    setTimeout(typeEffect, 1200);
+    setTimeout(typeEffect, 1500);
     return;
   }
 
